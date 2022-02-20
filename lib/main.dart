@@ -79,9 +79,9 @@ class MainState extends State<Main>{
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Padding(padding: EdgeInsets.only(left: 20 , right: 20),
-              child: SizedBox(width: width-40, height: 50,
+              child: SizedBox(width: width-40, height: 60,
                 child: Text("Welcome user , here is new fun fact for you" ,
-                  style: GoogleFonts.comicNeue(textStyle: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold,color: Colors.black))
+                  style: GoogleFonts.comicNeue(textStyle: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold,color: Colors.black))
                 ,textAlign: TextAlign.center,
                 )),
               ),
@@ -90,7 +90,7 @@ class MainState extends State<Main>{
                 alignment: Alignment.center,
                 child:
                 Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     SizedBox(width: width-40, height: height*0.15,
@@ -118,7 +118,7 @@ class MainState extends State<Main>{
                           style: GoogleFonts.comicNeue(textStyle: const
                           TextStyle(fontSize: 24, color: Colors.black)), textAlign: TextAlign.center,)
                     ),
-                    SizedBox(width: width*0.55, height: 40,
+                    SizedBox(width: width*0.55, height: height*0.05,
                     child:
                     ElevatedButton(
                         onPressed: () async {
