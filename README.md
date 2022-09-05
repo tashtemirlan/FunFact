@@ -4,7 +4,7 @@ Flutter app to generate fun fact
 
 # Information
 
-Flutter project to create funny [facts](https://asli-fun-fact-api.herokuapp.com) , on 5 [languages](https://translate.google.com) : **English , Russian , Korean , Polish**
+Flutter project to create funny [facts](https://asli-fun-fact-api.herokuapp.com) , on 4 [languages](https://translate.google.com) : **English , Russian , Korean , Polish**
 
 # Technologies & Tools
 
